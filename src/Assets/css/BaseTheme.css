@@ -1,0 +1,14 @@
+/* Base theme */
+:root {
+    --black: #000000;
+    --white: #ffffff;
+    --orange: #FD6F00;
+    --secondary: #7C7C7C;
+    --cyan: #61706F;
+    --btnLightBackground: #F8F8F8;
+    --btnLightBorder: #545454;
+    --cardBackground: #F8F8F8;
+    --scrollLight: #D9D9D9;
+    --footer: #545454;
+    --switchDark: #1E1E1E;
+}
