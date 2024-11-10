@@ -23,6 +23,10 @@
     font-family: 'poppins-regular';
 }
 
+.medium{
+    font-family: 'poppins-medium';
+}
+
 .semi-bold {
     font-family: 'poppins-semiBold';
 }
@@ -103,6 +107,11 @@
     height: 45px !important
 }
 
+.icon-50 {
+    width: 50px !important;
+    height:50px !important
+}
+
 /* width */
 
 .width-50{
@@ -125,11 +134,21 @@
     width: 90%;
 }
 
+
+/* height */
+.h-230{
+    height: 230px;
+}
+
 /* text-colors */
 .text-orange {
-    color: #FD6F00;
+    color: var(--orange);
 }
 
 .text-black {
-    color: #000000;
+    color: var(--black);
+}
+
+.text-muted{
+    color: var(--muted)
 }
