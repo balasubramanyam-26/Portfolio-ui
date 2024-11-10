@@ -9,6 +9,9 @@ import './Assets/css/Style.css'
 import Header from './Pages/Header'
 import AboutMe from './Pages/AboutMe'
 import Services from './Pages/Services'
+import Projects from './Pages/Projects'
+import Testimonials from './Pages/Testimonials'
+import Contact from './Pages/Contact'
 
 function App() {
 
@@ -20,6 +23,12 @@ function App() {
         <AboutMe />
 
         <Services />
+
+        <Projects />
+
+        <Testimonials />
+
+        <Contact />
       </div>
     </>
   )
