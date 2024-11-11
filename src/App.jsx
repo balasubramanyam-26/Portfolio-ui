@@ -12,6 +12,7 @@ import Services from './Pages/Services'
 import Projects from './Pages/Projects'
 import Testimonials from './Pages/Testimonials'
 import Contact from './Pages/Contact'
+import Footer from './Pages/Footer'
 
 function App() {
 
@@ -30,6 +31,9 @@ function App() {
 
         <Contact />
       </div>
+
+      <Footer />
+
     </>
   )
 }

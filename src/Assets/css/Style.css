@@ -192,3 +192,21 @@
     display: inline-block;
     width: unset;
 }
+
+/* Footer */
+.footer {
+    width: 100%;
+ }
+
+.footer-top{
+    background-color: var(--btnLightBackground);
+    padding: 200px 0px;
+}
+
+.footer-bottom{
+    background-color: var(--btnLightBorder);
+    padding: 25px 0;
+}
+
+
+  
