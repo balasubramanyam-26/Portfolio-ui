@@ -32,7 +32,9 @@ function App() {
         <Contact />
       </div>
 
-      <Footer />
+      <div className='container-fluid p-0'>
+        <Footer />
+      </div>
 
     </>
   )

@@ -4,7 +4,7 @@ import image from '../Assets/images/profile.svg'
 const Testimonials = () => {
   return (
     <div>
-      <div className='row' style={{ marginTop: '100px'   }}>
+      <div className='row' style={{ marginTop: '100px' }}>
         <div className='col'>
 
           <div className='row mb-5'>
@@ -28,12 +28,14 @@ const Testimonials = () => {
                 </div>
               </div>
 
-              <div className="col-md-9 mx-auto text-center mt-5">
-                <button className='btn-round btn-light me-1'> </button>
-                <button className='btn-round btn-orange me-1 border-0'></button>
-                <button className='btn-round btn-light me-1 btn-radius'>
-                   </button><button className='btn-round btn-light'> </button>
-              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-md-9 mx-auto text-center mt-0">
+              <button className='btn-round btn-light me-1'> </button>
+              <button className='btn-round btn-orange me-1 border-0'></button>
+              <button className='btn-round btn-light me-1 btn-radius'>
+              </button><button className='btn-round btn-light'> </button>
             </div>
           </div>
 

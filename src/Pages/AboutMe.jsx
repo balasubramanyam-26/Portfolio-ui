@@ -1,5 +1,5 @@
 import React from 'react'
-import ProfileOne from '../Assets/images/profile.svg'
+import Profile from '../Assets/images/Bala.jpg'
 import Icons from '../Components/Icons'
 
 const AboutMe = () => {
@@ -11,8 +11,8 @@ const AboutMe = () => {
             <div className='col-7'>
               <h6 className='semi-bold font-s24 mb-1 text-black'>Hi I am </h6>
               <h5 className='semi-bold font-s24 mb-0 text-orange'>BalaSubramanyam G M </h5>
-              <h1 className='bold font-s70 text-black mb-0'>UI & UX</h1>
-              <h1 className='bold font-s70 text-black ms-11 mb-3'>Designer </h1>
+              <h1 className='bold font-s70 text-black mb-0'>Front-End</h1>
+              <h1 className='bold font-s70 text-black mb-3'>Developer </h1>
               <p className='font-s20 text-black'>Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet donec morbi convallis pretium. Turpis tempus pharetra</p>
               <button className='btn btn-orange regular'>Hire Me </button>
             </div>
@@ -21,7 +21,8 @@ const AboutMe = () => {
               <div className='row mb-3'>
                 <div className='col-12 d-flex justify-content-center'>
                   <div class="outer-circle">
-                    <div class="inner-circle"></div>
+                    <div class="inner-circle">
+                    </div>
                   </div>
                 </div>
               </div>
@@ -40,6 +41,8 @@ const AboutMe = () => {
 
           <div className='row mt-5'>
             <div className='col-5'>
+              <div class="circle"></div>
+
             </div>
             <div className='col-6 mt-5'>
               <h3 className='semi-bold mb-3 text-black'>About Me </h3>
@@ -72,7 +75,7 @@ const AboutMe = () => {
                   <div class="progress-bar width-80"></div>
                 </div>
               </div>
-             
+
             </div>
           </div>
         </div>
