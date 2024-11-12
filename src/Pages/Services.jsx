@@ -12,7 +12,7 @@ const Services = () => {
             <p className='text-black text-center'>Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet donec morbi convallis pretium</p>
           </div>
 
-          <div className='row my-4'>
+          <div className='row wrapper my-4'>
             <div className='col-3'>
               <div className='card service-card'>
                 <div className='card-body'>

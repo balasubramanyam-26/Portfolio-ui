@@ -30,7 +30,7 @@ const Header = () => {
                 <li class="nav-item">
                   <a class="nav-link" href="#">Contact</a>
                 </li>
-                <button className='btn btn-orange regular'>Downlaod CV</button>
+                <button className='btn btn-orange regular'>Download CV</button>
               </ul>
             </div>
           </div>
