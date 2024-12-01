@@ -8,47 +8,47 @@ const Services = () => {
         <div className='col'>
 
           <div className='row'>
-            <h2 className='semi-bold text-black text-center font-s60 mb-2'>Services</h2>
-            <p className='text-black text-center'>Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet donec morbi convallis pretium</p>
+            <h2 className='semi-bold text-black text-center font-s50 mb-2'>Services</h2>
+            <p className='text-black text-center font-s18'>Delivering sleek, user-friendly web solutions for all devices</p>
           </div>
 
           <div className='row wrapper my-4'>
-            <div className='col-3'>
+            <div className='col-12 col-sm-12 col-md-6 col-lg-3 mb-3'>
               <div className='card service-card'>
                 <div className='card-body'>
                   <div className='mb-3'><Icons iconName="icon-ui" className="icon-45"></Icons></div>
                   <div className='semi-bold font-s32 text-black'>UI/UX</div>
-                  <p className='text-black mb-0'>Lorem ipsum dolor sit amet consectetur. Morbi diam nisi nam diam interdum</p>
+                  <p className='text-black mb-0'>Elevating user satisfaction through thoughtful design.</p>
                 </div>
               </div>
             </div>
 
-            <div className='col-3'>
+            <div className='col-12 col-sm-12 col-md-6 col-lg-3 mb-3'>
               <div className='card service-card'>
                 <div className='card-body'>
                   <div className='mb-3'><Icons iconName="icon-ui" className="icon-45"></Icons></div>
-                  <div className='semi-bold font-s32 text-black'>UI/UX</div>
-                  <p className='text-black mb-0'>Lorem ipsum dolor sit amet consectetur. Morbi diam nisi nam diam interdum</p>
+                  <div className='semi-bold font-s32 text-black'>Responsive Web Design</div>
+                  <p className='text-black mb-0'>Building flexible layouts that adapt to every screen size</p>
                 </div>
               </div>
             </div>
 
-            <div className='col-3'>
+            <div className='col-12 col-sm-12 col-md-6 col-lg-3 mb-3'>
               <div className='card service-card'>
                 <div className='card-body'>
                   <div className='mb-3'><Icons iconName="icon-ui" className="icon-45"></Icons></div>
-                  <div className='semi-bold font-s32 text-black'>UI/UX</div>
-                  <p className='text-black mb-0'>Lorem ipsum dolor sit amet consectetur. Morbi diam nisi nam diam interdum</p>
+                  <div className='semi-bold font-s32 text-black'>Single Page Applications</div>
+                  <p className='text-black mb-0'>Transforming web interactions with modern, single-page technology.</p>
                 </div>
               </div>
             </div>
 
-            <div className='col-3'>
+            <div className='col-12 col-sm-12 col-md-6 col-lg-3 mb-3'>
               <div className='card service-card'>
                 <div className='card-body'>
                   <div className='mb-3'><Icons iconName="icon-ui" className="icon-45"></Icons></div>
-                  <div className='semi-bold font-s32 text-black'>UI/UX</div>
-                  <p className='text-black mb-0'>Lorem ipsum dolor sit amet consectetur. Morbi diam nisi nam diam interdum</p>
+                  <div className='semi-bold font-s32 text-black'>Front-end Development</div>
+                  <p className='text-black mb-0'>Turning pixels into code for a flawless user experience</p>
                 </div>
               </div>
             </div>

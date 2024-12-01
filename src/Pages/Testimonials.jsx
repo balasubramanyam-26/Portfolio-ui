@@ -9,12 +9,12 @@ const Testimonials = () => {
 
           <div className='row mb-5'>
             <div className="col-6 mx-auto text-center">
-              <h2 className='semi-bold text-black text-center font-s60 mb-2'>Testimonials</h2>
-              <p className='text-black text-center'>Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet donec morbi convallis pretium</p>
+              <h2 className='semi-bold text-black text-center font-s50 mb-2'>Testimonials</h2>
+              <p className='text-black text-center font-s18'>Appreciation from clients.</p>
             </div>
           </div>
           <div className='row my-5'>
-            <div className='col-6 mx-auto'>
+            <div className='col-12 col-sm-10 col-md-10 col-lg-6 mx-auto'>
               <div className='card service-card'>
                 <div className='card-body'>
                   <div className='d-flex align-items-center'>

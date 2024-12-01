@@ -4,7 +4,7 @@ import './Assets/css/BaseTheme.css'
 import './Assets/css/App.css'
 import './Assets/css/Common.css'
 import './Assets/css/Style.css'
-import './Assets/css/Style.css'
+import './Assets/css/responsive.css'
 
 import Header from './Pages/Header'
 import AboutMe from './Pages/AboutMe'

@@ -1,0 +1,20 @@
+@media (max-width: 576px) { 
+    .about-info-profile {
+        display: none;
+    }
+
+    .profile-pic-secondry {
+        display: flex;
+        justify-content: center;
+    }
+
+    .project-card-info {
+        text-align: center;
+    }
+ }
+
+ @media (min-width: 577px) { 
+    .profile-pic-secondry {
+        display: none;
+    }
+  }
