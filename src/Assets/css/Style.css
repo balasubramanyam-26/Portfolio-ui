@@ -13,6 +13,16 @@ body {
     gap: 0px 12px;
 }
 
+/* Margin and padding */
+
+.pt-35 {
+    padding-top: 35px;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
 /* Button */
 .btn {
     padding: 8px 16px;
@@ -164,6 +174,7 @@ body {
     border-radius: 6px;
     background-color: var(--cardBackground);
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    height: 100%;
 }
 
 .service-card:hover {
@@ -188,11 +199,18 @@ body {
 .project-card {
     border-radius: 10px;
     border: 0;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
+
 .project-card .card-inner {
     padding: 0;
     position: relative;
 }
+
+.project-card:has(.card-inner:hover) {
+    box-shadow: none;
+}
+
 .project-card .box {
     width: 100%;
     height: 100%;
@@ -200,21 +218,26 @@ body {
     border-radius: 1.25rem;
     overflow: hidden;
 }
+
 .project-card .imgBox img {
     width: 100%;
     height: 300px;
     object-fit: cover;
 }
+
 .project-card .imgBox {
     transition: .5s ease-in-out;
 }
+
 .project-card .imgBox:hover {
     scale: 1.1;
 }
+
 .project-card .card-inner:hover .icon {
     z-index: 1;
     transition: 0.3s ease-in-out;
 }
+
 .project-card .icon {
     position: absolute;
     bottom: -0.375rem;
@@ -225,6 +248,7 @@ body {
     border-top-left-radius: 50%;
     z-index: -1;
 }
+
 .project-card .iconBox {
     position: absolute;
     inset: 0.625rem;
@@ -234,11 +258,13 @@ body {
     align-items: center;
     transition: 0.3s;
 }
+
 .project-card .iconBox span {
     color: #fff;
     font-size: 1.5rem;
     transform: rotate(330deg);
 }
+
 .project-card .icon::before {
     position: absolute;
     content: "";
@@ -251,6 +277,7 @@ body {
     box-shadow: 0.313rem 0.313rem 0 0.313rem;
     color: var(--white);
 }
+
 .project-card .icon::after {
     position: absolute;
     content: "";
@@ -262,6 +289,7 @@ body {
     border-bottom-right-radius: 1.25rem;
     box-shadow: 0.313rem 0.313rem 0 0.313rem var(--white);
 }
+
 .project-card .icon:hover .iconBox {
     scale: 1.1;
 }
@@ -278,11 +306,6 @@ body {
     width: 100%;
     position: fixed;
     bottom: 0;
-}
-
-.footer-top {
-    background-color: var(--btnLightBackground);
-    padding: 60px 0px;
 }
 
 .footer-bottom {

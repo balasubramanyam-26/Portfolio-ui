@@ -3,20 +3,20 @@ import React from 'react'
 const Contact = () => {
   return (
     <div>
-      <div className='row' style={{ marginTop: '100px' }}>
+      <div className='row mt-100'>
         <div className='col'>
 
-          <div className='row mb-5'>
-            <div className="col-6 mx-auto text-center">
-              <h2 className='semi-bold text-black text-center font-s60 mb-2'>Lets Design Together</h2>
-              <p className='text-black text-center'>Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet donec morbi convallis pretium</p>
+          <div className='row mb-5 mb-xs-5'>
+            <div className="col-12 col-lg-6 mx-auto text-center">
+              <h2 className='semi-bold text-black text-center font-s50 mb-2'>Lets Design Together</h2>
+              <p className='text-black text-center font-s18'>Let’s combine creativity and technology to craft memorable digital experiences.</p>
             </div>
           </div>
 
-          <div className="col-md-9 mx-auto text-center my-5">
+          <div className="col-12 col-md-9 mx-auto text-center my-5 my-xs-5">
 
-            <input type="password" class="form-control me-3" id="exampleInputPassword1" placeholder="Enter Your Email" />
-            <button className='btn-round btn-orange me-1 border-0'>Contact Me </button>
+            <input type="password" className="form-control me-3" id="exampleInputPassword1" placeholder="Enter Your Email" />
+            <button className='btn-round btn-orange me-md-1 mt-xs-2 border-0'>Contact Me </button>
 
           </div>
         </div>
