@@ -1,0 +1,161 @@
+@font-face {
+    font-family: 'poppins-regular';
+    src: url('../fonts/Poppins-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'poppins-medium';
+    src: url('../fonts/Poppins-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'poppins-semiBold';
+    src: url('../fonts/Poppins-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: 'poppins-bold';
+    src: url('../fonts/Poppins-Bold.ttf');
+}
+
+/* Typo Classes */
+.regular {
+    font-family: 'poppins-regular';
+}
+
+.medium{
+    font-family: 'poppins-medium';
+}
+
+.semi-bold {
+    font-family: 'poppins-semiBold';
+}
+
+.bold {
+    font-family: 'poppins-bold';
+}
+
+
+/* Font-class */
+.font-s12 {
+    font-size: 12px;
+}
+
+.font-s14 {
+    font-size: 14px;
+}
+
+.font-s16 {
+    font-size: 16px;
+}
+
+.font-s18 {
+    font-size: 18px;
+}
+
+.font-s20 {
+    font-size: 20px;
+}
+
+.font-s24 {
+    font-size: 24px;
+}
+
+.font-s32 {
+    font-size: 32px;
+}
+
+.font-s50 {
+    font-size: 50px;
+}
+
+.font-s60 {
+    font-size: 60px;
+}
+
+.font-s70 {
+    font-size: 70px;
+}
+
+/* margin and padding */
+
+.ms-11 {
+    margin-left: 10rem;
+}
+
+.mt-80{
+    margin-top: 80px;
+}
+
+/* Icons */
+
+.icon-12 {
+    width: 12px !important;
+    height: 12px !important
+}
+
+.icon-15 {
+    width: 15px !important;
+    height: 15px !important
+}
+
+.icon-20 {
+    width: 20px !important;
+    height: 20px !important
+}
+
+.icon-30 {
+    width: 30px !important;
+    height: 30px !important
+}
+
+.icon-45 {
+    width: 45px !important;
+    height: 45px !important
+}
+
+.icon-50 {
+    width: 50px !important;
+    height:50px !important
+}
+
+/* width */
+
+.width-50{
+    width: 50%;
+}
+
+.width-60{
+    width: 60%;
+}
+
+.width-75{
+    width: 75%;
+}
+
+.width-80{
+    width: 80%;
+}
+
+.width-90{
+    width: 90%;
+}
+
+
+/* height */
+.h-230{
+    height: 230px;
+}
+
+/* text-colors */
+.text-orange {
+    color: var(--orange);
+}
+
+.text-black {
+    color: var(--black);
+}
+
+.text-muted{
+    color: var(--muted)
+}
