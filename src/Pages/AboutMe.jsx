@@ -5,7 +5,7 @@ import Icons from '../Components/Icons'
 const AboutMe = () => {
   return (
     <div>
-      <div className='row' style={{ marginTop: '100px' }}>
+      <div className='row mt-100'>
         <div className='col'>
           <div className='row'>
             <div className='col-md-7 col-sm-12 col-12 about-info'>
@@ -39,14 +39,14 @@ const AboutMe = () => {
             </div>
           </div>
 
-          <div className='row mt-5'>
+          <div className='row mt-5 mt-xs-5 flex-lg-row-reverse flex-md-row'>
             <div className='col-md-5 col-sm-12 profile-pic-secondry'>
               <div class="outer-circle">
                 <div class="inner-circle">
                 </div>
               </div>
             </div>
-            <div className='col-md-6 col-md-12 mt-5'>
+            <div className='col-lg-7 col-12 mt-5 mt-xs-5'>
               <h3 className='semi-bold mb-3 text-black font-s50'>About Me </h3>
               <p className='mb-3 text-black font-s18'>I am a passionate Front-End Developer with a strong foundation in creating responsive and user-centric web applications. With experience in HTML, CSS, JavaScript, React, and other modern front-end technologies, I thrive on transforming creative designs into seamless, interactive user experiences.</p>
 

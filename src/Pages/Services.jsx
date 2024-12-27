@@ -4,7 +4,7 @@ import Icons from '../Components/Icons'
 const Services = () => {
   return (
     <div>
-      <div className='row' style={{ marginTop: '100px' }}>
+      <div className='row mt-100'>
         <div className='col'>
 
           <div className='row'>
@@ -13,7 +13,7 @@ const Services = () => {
           </div>
 
           <div className='row wrapper my-4'>
-            <div className='col-12 col-sm-12 col-md-6 col-lg-3 mb-3'>
+            <div className='col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3'>
               <div className='card service-card'>
                 <div className='card-body'>
                   <div className='mb-3'><Icons iconName="icon-ui" className="icon-45"></Icons></div>
@@ -23,7 +23,7 @@ const Services = () => {
               </div>
             </div>
 
-            <div className='col-12 col-sm-12 col-md-6 col-lg-3 mb-3'>
+            <div className='col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 mt-4 mt-sm-0'>
               <div className='card service-card'>
                 <div className='card-body'>
                   <div className='mb-3'><Icons iconName="icon-ui" className="icon-45"></Icons></div>
@@ -33,7 +33,7 @@ const Services = () => {
               </div>
             </div>
 
-            <div className='col-12 col-sm-12 col-md-6 col-lg-3 mb-3'>
+            <div className='col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 mt-4 mt-sm-4 mt-md-0'>
               <div className='card service-card'>
                 <div className='card-body'>
                   <div className='mb-3'><Icons iconName="icon-ui" className="icon-45"></Icons></div>
@@ -43,7 +43,7 @@ const Services = () => {
               </div>
             </div>
 
-            <div className='col-12 col-sm-12 col-md-6 col-lg-3 mb-3'>
+            <div className='col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 mt-4 mt-xl-0'>
               <div className='card service-card'>
                 <div className='card-body'>
                   <div className='mb-3'><Icons iconName="icon-ui" className="icon-45"></Icons></div>

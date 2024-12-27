@@ -18,7 +18,7 @@ function App() {
 
   return (
     <>
-      <div className="container" style={{ marginTop: '35px' }}>
+      <div className="container pt-35 py-xs-20">
         <Header />
 
         <AboutMe />
